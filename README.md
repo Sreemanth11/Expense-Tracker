@@ -21,3 +21,18 @@ A desktop Expense Tracker application built using **Python**, **Tkinter**, and *
 ```bash
 pip install -r requirements.txt
 python main.py
+
+---
+
+## `.gitignore`
+
+Create a `.gitignore` file containing:
+
+```gitignore
+__pycache__/
+*.pyc
+*.db-journal
+*.sqlite-journal
+.env
+.venv/
+venv/
